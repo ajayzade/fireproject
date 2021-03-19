@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:src="@drawable/one"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="45sp"
+        android:textColor="#BB3106"
+        tools:ignore="HardcodedText"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        android:textColor="#ECE4E4"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_background"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/btn_background"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText"
+        android:textColor="#ECE4E4"/>
+
+</LinearLayout>

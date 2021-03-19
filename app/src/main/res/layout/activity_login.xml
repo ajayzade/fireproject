@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:src="@drawable/two"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="45sp"
+        android:textColor="#BB3106"
+        tools:ignore="HardcodedText"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:text="Enter Email"
+        tools:ignore="HardcodedText"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textColor="#BB3106"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_background"
+        />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:text="Enter Password"
+        tools:ignore="HardcodedText"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textColor="#BB3106"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_background"
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        android:textColor="#ECE4E4"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_background"/>
+
+</LinearLayout>
